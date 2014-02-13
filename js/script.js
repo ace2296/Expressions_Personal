@@ -17,7 +17,7 @@ savedAmount[3] = Number(month4); //User will change default value from month 4
 var total = savedAmount[0] + savedAmount[1] + savedAmount[2] + savedAmount[3]; //add up the user input values and convert them into numbers
 var monthAverage = total / 4; //divided by the total number of months in the array
 var weekAverage = total / 16; //divided by the total number of weeks in the 4 months
-var yearSavings = (total /4)*12;
+var yearSavings = (total /4)*12; //calculate the avergae saved per month then multiply it byt the months in the year to get the average saved per year
 
 //This alert will tell the user how much they have saved up over the summer and what was their average savings per month and per week.
 alert("Congratulations! \nYou save a total of $" + total + " this summer, with an average savings of $" + monthAverage + " saved per month and an average of $" + weekAverage + " saved per week.);
