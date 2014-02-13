@@ -4,10 +4,10 @@ var month = ["May" , "June", "July" , "August"]; //Summer months are listed
 
 var savedAmount = [0 , 0 , 0 , 0]; //Amount saved default values
 
-var month1 = prompt("Let's find out how much money you saved this summer. How much money did you save in the month of "+ month[0] + "? (enter without $ sign)"); //gather info for May
-var month2 = prompt("How much money did you save in the month of "+ month[1] + "? (enter without $ sign)"); //gather info for June
-var month3 = prompt("How much money did you save in the month of "+ month[2] + "? (enter without $ sign)"); //gather info for July
-var month4 = prompt("How much money did you save in the month of "+ month[3] + "? (enter without $ sign)"); //gather info for August
+var month1 = prompt("Let's find out how much money you saved this summer. How much money did you save in the month of "+ month[0] + "? (please enter without the $ sign)"); //gather info for May
+var month2 = prompt("How much money did you save in the month of "+ month[1] + "? (please enter without the $ sign)"); //gather info for June
+var month3 = prompt("How much money did you save in the month of "+ month[2] + "? (please enter without the $ sign)"); //gather info for July
+var month4 = prompt("How much money did you save in the month of "+ month[3] + "? (please enter without the $ sign)"); //gather info for August
 
 savedAmount[0] = Number(month1); //User will change default value from month 1
 savedAmount[1] = Number(month2); //User will change default value from month 2
