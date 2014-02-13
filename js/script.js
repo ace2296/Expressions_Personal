@@ -1,5 +1,7 @@
 //Guerra, Andre 12/13/14 Expressions - Personal
 
+//This expression will help you figure out how much you saved over 4 months (summer) and project your yearly savings.
+
 var month = ["May" , "June", "July" , "August"]; //Summer months are listed
 
 var savedAmount = [0 , 0 , 0 , 0]; //Amount saved default values
