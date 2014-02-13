@@ -2,10 +2,10 @@
 
 var month = ["May" , "June", "July" , "August"]; //Summer months are listed
 
-var month1 = prompt("Let's find out how much money you saved this summer. How much money did you save in the month of "+ month[0] + "?"); //gather info for May
-var month2 = prompt("How much money did you save in the month of "+ month[1] + "?"); //gather info for June
-var month3 = prompt("How much money did you save in the month of "+ month[2] + "?"); //gather info for July
-var month4 = prompt("How much money did you save in the month of "+ month[3] + "?"); //gather info for August
+var month1 = prompt("Let's find out how much money you saved this summer. How much money did you save in the month of "+ month[0] + "? (enter without $ sign)"); //gather info for May
+var month2 = prompt("How much money did you save in the month of "+ month[1] + "? (enter without $ sign)"); //gather info for June
+var month3 = prompt("How much money did you save in the month of "+ month[2] + "? (enter without $ sign)"); //gather info for July
+var month4 = prompt("How much money did you save in the month of "+ month[3] + "? (enter without $ sign)"); //gather info for August
 
 var total = Number(month1) + Number(month2) + Number(month3) + Number(month4); //add up the user input values and convert them into numbers
 var monthAverage = total / 4; //divided by the total number of months in the array
