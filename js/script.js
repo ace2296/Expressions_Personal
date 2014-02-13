@@ -14,7 +14,7 @@ savedAmount[1] = month2; //User will change default value fro month 2
 savedAmount[2] = month3; //User will change default value fro month 3
 savedAmount[3] = month4; //User will change default value fro month 4
 
-var total = Number(month1) + Number(month2) + Number(month3) + Number(month4); //add up the user input values and convert them into numbers
+var total = savedAmount[0] + savedAmount[1] + savedAmount[2] + savedAmount[3]; //add up the user input values and convert them into numbers
 var monthAverage = total / 4; //divided by the total number of months in the array
 var weekAverage = total / 16; //divided by the total number of weeks in the 4 months
 
