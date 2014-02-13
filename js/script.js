@@ -9,10 +9,10 @@ var month2 = prompt("How much money did you save in the month of "+ month[1] + "
 var month3 = prompt("How much money did you save in the month of "+ month[2] + "? (enter without $ sign)"); //gather info for July
 var month4 = prompt("How much money did you save in the month of "+ month[3] + "? (enter without $ sign)"); //gather info for August
 
-savedAmount[0] = month1;
-savedAmount[1] = month2;
-savedAmount[2] = month3;
-savedAmount[3] = month4;
+savedAmount[0] = month1; //User will change default value fro month 1
+savedAmount[1] = month2; //User will change default value fro month 2
+savedAmount[2] = month3; //User will change default value fro month 3
+savedAmount[3] = month4; //User will change default value fro month 4
 
 var total = Number(month1) + Number(month2) + Number(month3) + Number(month4); //add up the user input values and convert them into numbers
 var monthAverage = total / 4; //divided by the total number of months in the array
