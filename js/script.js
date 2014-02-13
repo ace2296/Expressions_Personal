@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-//Guerra, Andre 12/13/14 Expressions - Industry
-=======
 //Guerra, Andre 12/13/14 Expressions - Personal
 
 var month = ["May" , "June", "July" , "August"]; //Summer months are listed
@@ -27,4 +24,3 @@ alert("Congratulations! \nYou save a total of $" + total + " this summer, with a
 
 //print result to the console
 console.log("Congratulations! \nYou save a total of $" + total + " this summer, with an average savings of $" + monthAverage + " saved per month and an average of $" + weekAverage + " saved per week. If you keep this pace, you will save about $" + yearSavings + " by next year. Don't spend it all on some fancy record player.");
->>>>>>> a8374d701511d3710a8311a1e75f1176507bf962
