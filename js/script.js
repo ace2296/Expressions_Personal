@@ -21,3 +21,6 @@ var yearSavings = (total /4)*12; //calculate the avergae saved per month then mu
 
 //This alert will tell the user how much they have saved up over the summer and what was their average savings per month and per week.
 alert("Congratulations! \nYou save a total of $" + total + " this summer, with an average savings of $" + monthAverage + " saved per month and an average of $" + weekAverage + " saved per week. If you keep this pace, you will save about $" + yearSavings + " by next year.");
+
+//print result to the console
+console.log("Congratulations! \nYou save a total of $" + total + " this summer, with an average savings of $" + monthAverage + " saved per month and an average of $" + weekAverage + " saved per week. If you keep this pace, you will save about $" + yearSavings + " by next year. Don't spend it all on some fancy record player.");
